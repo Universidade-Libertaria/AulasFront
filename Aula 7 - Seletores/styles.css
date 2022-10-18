@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-size: 1.5rem; */
+}
+
+.teste {
+  color: aqua;
+  font-size: 2rem;
+}
+
+/* ? Note q o estilo abaixo vai ser aplicado 
+? apenas da div teste teste2  */
+.bigFont {
+  font-size: 3rem;
+}
+
+/* .teste > p {
+  color: red;
+} */
+
+/* div p {
+  color: red;
+}
+ */
+/*? Elemento p que vem imediatamente após uma div */
+/* div + p {
+  color: red;
+  font-size: 2rem;
+} */
+
+/*? Elemento p no qual antes dele vem um elemento p */
+/* p ~ p {
+  color: chartreuse;
+} */
+
+/*? Adiciona texto depois e antes do elemento p dentro da div teste2 */
+.teste2 p::after {
+  content: " - Texto depois do elemento p";
+}
+
+.teste2 p::before {
+  content: "antes -";
+}
