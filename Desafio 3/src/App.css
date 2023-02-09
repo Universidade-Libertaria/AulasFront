@@ -1,0 +1,57 @@
+.wrapper {
+  max-width: 80%;
+  margin-inline: auto;
+  padding: 2rem;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo_container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.nav_container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  list-style: none;
+}
+.main_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  gap: 6rem;
+  padding: 2rem;
+}
+.text_container {
+  display: flex;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 3rem;
+}
+
+.cima p {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #fff;
+  text-align: justify;
+}
+
+.baixo p {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #d1e705;
+  text-align: justify;
+}
